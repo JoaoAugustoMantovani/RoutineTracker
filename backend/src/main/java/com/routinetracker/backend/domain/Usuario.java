@@ -1,14 +1,13 @@
 package com.routinetracker.backend.domain;
 import jakarta.persistence.*;
-import org.hibernate.annotations.UuidGenerator;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-public class UsuarioDomain {
+@Entity
+public class Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
@@ -40,7 +39,7 @@ public class UsuarioDomain {
     @LastModifiedDate
     private LocalDateTime atualizadoEm;
 
-    public UsuarioDomain(){
+    public Usuario(){
 
     }
 
