@@ -14,3 +14,4 @@
 - **Contexto:** Definição do tipo de dado para a chave primária das tabelas do sistema.
 - **Decisão:** Utilizar UUID em vez de IDs sequenciais (Serial/BigInt).
 - **Motivo:** Aumentar a segurança da API evitando a enumeração de recursos (ID guessing) e facilitar futuras integrações ou migrações de dados sem conflitos de chave.
+
