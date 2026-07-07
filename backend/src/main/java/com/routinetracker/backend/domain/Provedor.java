@@ -1,4 +1,6 @@
 package com.routinetracker.backend.domain;
 
-public class Atividade {
+public enum Provedor {
+    LOCAL,
+    GOOGLE
 }
